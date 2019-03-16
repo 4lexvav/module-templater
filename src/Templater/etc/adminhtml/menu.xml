@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Vav_Templater::templater" title="Template Editor" module="Vav_Templater" sortOrder="100"
+             resource="Vav_Templater::templater" parent="Magento_Backend::content"/>
+    </menu>
+</config>
